@@ -1,22 +1,35 @@
-.button {
-  border: 1px solid darkblue;
-  background-color: lightblue;
-  border-radius: 20px;
-  text-align: center;
-  padding: 10px 0;
-}
-
-.navbar {
-  margin-top: 20px;
-}
-
-.logo img {
-  width: 20em;
-  height: auto;
-  display: flex;
-}
-
 html {
   height: 100%;
   background: linear-gradient(to bottom, #ff9966 0%, #ccff33 100%);
+}
+
+header .row {
+  display: flex;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.col-sm-4 {
+  display: flex;
+}
+
+.button {
+  border: 2px solid blue;
+  border-radius: 20px;
+  background-color: lightblue;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/*
+.navbar {
+  border: 2px blue solid;
+  height: 5em;
+  width: 78em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 5em;
 }
