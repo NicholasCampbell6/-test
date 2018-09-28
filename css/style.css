@@ -24,9 +24,7 @@ a {
 }
 
 .cart {
-  position: relative;
-  left: 8.5em;
-  bottom: 1em;
+  text-align: right;
 }
 
 .col-sm-4 {
@@ -48,6 +46,25 @@ a {
 
 .button:active {
   top: .5em;
+}
+
+.items {
+  background-color: #b3b3ff;
+  margin-top: 1em;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 97%;
+  align-content: space-around;
+  padding: 1em;
+  border-radius: 20px;
+  grid
+}
+
+.it {
+  background-color: beige;
+  box-shadow: 0px 0px 2px black;
+  border: 1px solid black;
+  text-align: center;
 }
 
 /*
